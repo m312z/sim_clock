@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>sim_clock</name>
+  <version>0.0.0</version>
+  <description>Quick simulated clock with adjustable speed.</description>
+  <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/KCL-Planning/ROSPlan</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>rosplan_knowledge_msgs</build_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rosgraph_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>rosplan_knowledge_msgs</run_depend>
+
+  <export></export>
+</package>
