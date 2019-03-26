@@ -49,7 +49,7 @@ namespace KCL_rosplan {
             ros::spinOnce();
             loop_rate.sleep();
             count++;
-            if(count%60==0)std::cout << time_now << std::endl;
+            if(count%5==0)std::cout << time_now << std::endl;
         }
 
 		return 0;
